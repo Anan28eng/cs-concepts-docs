@@ -55,6 +55,7 @@ for fruit in fruits:
     print(fruit)
 ```
 
+
 ## Example: Function Definition
 
 Functions in Python are defined using the `def` keyword. Here's a simple function that adds two numbers:
@@ -66,8 +67,33 @@ def add_numbers(a, b):
 result = add_numbers(5, 3)
 print(result)  # Outputs: 8
 ```
+##  Looping statements
+Looping in python can be done using `for`and `while` keywords:
 
-## Add other docs
+**For loop:Example**
+Printing odd numbers from 1 to 10
+```python
+for i in range(1,11,2):
+     print(i)
+print("End of for loop") #Outputs: 1 3 5 7 9
+```
+**while loop:Example**
+Printing 4 tables multiplication
+```python
+i=1
+while i<=10:
+   print(f"4 x{i}={4*i}")
+   i+=1
+print("end of while loop")
+#Outputs:4 × 1 = 4    4 × 2 = 8    4 × 3 = 12   4 × 4 = 16   4 × 5 = 20   4 × 6 = 24   4 × 7 = 28   4 × 8 = 32   4 × 9 = 36   4 × 10 = 40
+
+```
+
+
+    
+
+
+
 
 
 - Go back to [Languages](./index.md)
